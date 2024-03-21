@@ -14,7 +14,7 @@ defmodule Ortex.Util do
       end
 
     # where the libonnxruntime files are stored
-    rust_path = Path.join([build_root, "native/ortex", rust_env])
+    rust_path = "/onnxruntime/build/Linux/Release"
 
     onnx_runtime_paths =
       case :os.type() do
